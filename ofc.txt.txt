@@ -1,0 +1,53 @@
+public class student {
+       private int stdid;
+       private String stdName;
+       private double salary;
+       private char stdrole;
+       private int joiningdate;
+       
+       
+       public student() {
+    	   
+       }
+       public  student(int stdid,String stdName,double salary, char stdrole,int joiningdate) {
+    	   this.stdid = stdid;
+    	   this.stdName = stdName ;
+    	   this.salary = salary;
+    	   this.stdrole = stdrole;
+    	   this.joiningdate = joiningdate;
+    	   
+    	   
+       }
+	   public int getStdid() {
+		   return stdid;
+	   }
+	   public void setStdid(int stdid) {
+		   this.stdid = stdid;
+	   }
+	   public String getStdName() {
+		   return stdName;
+	   }
+	   public void setStdName(String stdName) {
+		   this.stdName = stdName;
+	   }
+	   public double getSalary() {
+		   return salary;
+	   }
+	   public void setSalary(double salary) {
+		   this.salary = salary;
+	   }
+	   public char getStdrole() {
+		   return stdrole;
+	   }
+	   public void setStdrole(char stdrole) {
+		   this.stdrole = stdrole;
+	   }
+	   public int getJoiningdate() {
+		   return joiningdate;
+	   }
+	   public void setJoiningdate(int joiningdate) {
+		   this.joiningdate = joiningdate;
+	   }
+       
+       
+}
